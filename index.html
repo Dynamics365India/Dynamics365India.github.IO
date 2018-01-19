@@ -64,38 +64,69 @@
     <div class="container-fluid">
         <!-- Control the column width, and how they should appear on different devices -->
         <div class="row">
-            <div class="col-sm-12 text-center">
-                <button type="button" class="btn btn-primary btn-lg">Join our community!</button>
+            <div class="col text-center">
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#joinUsModal">Join our community!</button>
                 <br />
-                <button type="button" class="btn btn-link btn-sm">why join?</button>
+                <button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#whyJoinModal">why join?</button>
             </div>
-           
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col-sm-4" style="background-color:yellow;">33.33%</div>
-            <div class="col-sm-4" style="background-color:orange;">33.33%</div>
-            <div class="col-sm-4" style="background-color:yellow;">33.33%</div>
-        </div>
-        <br>
-
-        <!-- Or let Bootstrap automatically handle the layout -->
-        <div class="row">
-            <div class="col-sm" style="background-color:yellow;">25%</div>
-            <div class="col-sm" style="background-color:orange;">25%</div>
-            <div class="col-sm" style="background-color:yellow;">25%</div>
-            <div class="col-sm" style="background-color:orange;">25%</div>
-        </div>
-        <br>
-
-        <div class="row">
-            <div class="col" style="background-color:yellow;">25%</div>
-            <div class="col" style="background-color:orange;">25%</div>
-            <div class="col" style="background-color:yellow;">25%</div>
-            <div class="col" style="background-color:orange;">25%</div>
         </div>
     </div>
+
+    <!-- Join Us Modal -->
+    <div class="modal fade" id="joinUsModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Join Dynamics 365 India</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="user-name" class="col-form-label">Name</label>
+                            <input type="text" class="form-control" id="user-name">
+                        </div>
+                                                 <label for="user-email" class="col-form-label">Email</label>
+                            <input type="text" class="form-control" id="user-email">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input type="text" class="form-control" id="password">
+                   
+                        <div class="form-group">
+                            <label for="confirm-password" class="col-form-label">Password</label>
+                            <input type="text" class="form-control" id="confirm-password">
+                        </div>                       
+                    </form>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Join Modal -->
+    <div class="modal fade" id="whyJoinModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Reasons to join Dynamics 365 India</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Collaborate and share knowledge with people like you.</li>
+                        <li>Get your doubts clarified by experts</li>
+                        <li>Share your blogs/contributions with others</li>
+                        <li>Write blogs about Dynamics 365</li>
+                        <li>Attend or speak in public sessions</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Got it!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
