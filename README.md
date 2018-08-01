@@ -1,2 +1,3 @@
-# Dynamics365India.github.IO
-Community for Dynamics 365 Enthusiasts
+Check Events here
+
+### more coming soon.....
