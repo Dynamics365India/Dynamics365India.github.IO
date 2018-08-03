@@ -1,5 +1,5 @@
 *****
-# A place for all Dynamics 365 enthusiasts to share ideas, experiences and knowledge.
+# Let's Collaborate & Explore Dynamics 365 World!
 *****
 ### [Upcoming Events](http://www.dynamics365india.org/Events/)
 *****
