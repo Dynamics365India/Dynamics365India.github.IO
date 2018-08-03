@@ -1,3 +1,4 @@
+### ![Dynamics 365 India](D365IN.PNG)
 *****
 ## [Upcoming Events](http://www.dynamics365india.org/Events/)
 *****
