@@ -1,6 +1,5 @@
 *****
-# Let's Collaborate & Explore 
-# Dynamics 365 World!
+# Let's Collaborate and Explore Dynamics 365 World!
 *****
 ### [Upcoming Events](http://www.dynamics365india.org/Events/)
 *****
