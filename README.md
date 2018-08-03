@@ -1,7 +1,4 @@
-
-
-
-# [Upcoming Events](http://www.dynamics365india.org/Events/)
+## [Upcoming Events](http://www.dynamics365india.org/Events/)
 
 ## [Register Here To Get Updates](http://www.dynamics365india.org/EventRegistration)
 
