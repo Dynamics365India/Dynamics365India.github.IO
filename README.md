@@ -7,5 +7,5 @@
 *****
 ### [Register As Speaker](http://www.dynamics365india.org/Speaker)
 *****
-### [Join Group To Get Updates](https://chat.whatsapp.com/6ygJFpUTw6I3vwUzz4q6Re)
+
 *****
